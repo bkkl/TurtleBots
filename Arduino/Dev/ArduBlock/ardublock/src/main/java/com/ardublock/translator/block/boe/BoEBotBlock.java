@@ -13,6 +13,7 @@ public class BoEBotBlock extends TranslatorBlock {
 	{
 		super(blockId, translator, codePrefix, codeSuffix, label);
 		translator.addHeaderFile("TurtleBot.h");
+		translator.addHeaderFile("IRremote.h");
 		translator.addHeaderFile("Servo.h");
 		motionMethodName = motion;
 	}
