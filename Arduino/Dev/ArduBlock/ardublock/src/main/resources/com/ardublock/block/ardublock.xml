@@ -244,6 +244,23 @@
 				</Image>
 			</Images>
 		</BlockGenus>
+		<BlockGenus name="boe_forward1" kind="command" color="&color.BoeBot;"
+			initlabel="bg.boe_forward" label-unique="no">
+			<description>
+				<text>BL test Moves the Boe-Bot forward</text>
+			</description>
+			<BlockConnectors>
+				<BlockConnector connector-type="number"
+					connector-kind="socket" label="bc.rotations">
+					<DefaultArg genus-name="number" label="1" />
+				</BlockConnector>
+			</BlockConnectors>
+			<Images>
+				<Image block-location="west" wrap-text="yes">
+					<FileLocation>com/ardublock/block/boe/backward.png</FileLocation>
+				</Image>
+			</Images>
+		</BlockGenus>
 		<BlockGenus name="boe_backward" kind="command" color="&color.BoeBot;"
 			initlabel="bg.boe_backward" label-unique="no">
 			<description>
